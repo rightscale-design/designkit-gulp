@@ -1,0 +1,23 @@
+{
+  "name": "designkit-gulp",
+  "version": "1.0.0",
+  "description": "A sample Sass Gulp project built with Design-kit",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp styles",
+    "start": "npm run build && gulp"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "bourbon": "^4.3.4",
+    "designkit-card": "^1.0.1",
+    "designkit-colors": "^1.0.0",
+    "designkit-global": "^1.0.0",
+    "designkit-links": "^1.0.0",
+    "designkit-typography": "^1.0.0"
+  }
+}

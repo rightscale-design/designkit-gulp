@@ -1,0 +1,28 @@
+// Modules
+@import
+  "../node_modules/bourbon/app/assets/stylesheets/bourbon",
+  "../node_modules/designkit-global/src/scss/designkit-global",
+  "../node_modules/designkit-typography/src/scss/_designkit-typography.scss",
+  "../node_modules/designkit-colors/src/scss/designkit-colors",
+  "../node_modules/designkit-links/src/scss/designkit-links",
+  "../node_modules/designkit-card/src/scss/designkit-card"
+;
+
+// Text colors
+.text {
+  color: $text;
+}
+
+.heading {
+  color: $heading;
+}
+
+// Application styles
+body {
+  font-size: 13px;
+  padding: 4rem 0;
+  section {
+    margin: 0 auto;
+    max-width: 768px;
+  }
+}
